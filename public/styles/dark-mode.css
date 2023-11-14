@@ -1,0 +1,35 @@
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+nav.dark-mode {
+    background-color: #111;
+}
+
+.left-section.dark-mode .brand {
+    color: #fff;
+}
+
+.right-section.dark-mode a {
+    color: #fff;
+}
+
+.main-content.dark-mode {
+    background-color: #333;
+}
+
+footer.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
+#darkModeToggle .fas.fa-lightbulb {
+    color: #fff;
+    /* Color of the lightbulb in normal state */
+}
+
+body.dark-mode #darkModeToggle .fas.fa-lightbulb {
+    color: #f4d03f;
+    /* Color of the lightbulb in dark mode */
+}

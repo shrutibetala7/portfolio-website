@@ -1,0 +1,79 @@
+@import url("./scroll_animation.css");
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-size: xx-large;
+}
+
+.right-section a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Main content styles */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: small;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+#darkModeToggle i {
+    font-size: 24px;
+    /* Adjust the size as needed */
+}
